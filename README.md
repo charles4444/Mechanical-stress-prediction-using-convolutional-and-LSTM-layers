@@ -7,10 +7,11 @@ Summary: An artificial neural network that predicts boundary forces on a 2D cube
 The goal of this project was to test if neural networks are sufficient enough to be used with or instead of classical FEM simulations. While these have long known issues, such as massive computational cost and a loss of information and memory with the slightest change in the input parameters, neural networks can be trained on already existing data to reduce the time and energy load on future simulations. In this case a boundary value problem is looked on, using stress and displacement values on the edge of a 9 x 9 node cube. The goal is to predict the force distribution within the cube and compare these to the results of the FEM solution. Two different models have been built. For one a convolutional neural network, inspired by AlexNet, aswell as a custom built model with LSTM layers.
 
 Architecture of the CNN:
-
-![alt text](http://url/to/img.png)
+![](https://github.com/charles4444/Mechanical-stress-prediction-using-convolutional-and-LSTM-layers/blob/main/Images/Convolutional%20Neural%20Network.png?raw=true)
 
 The project showed some promising results, such as the CNN solution shows:
+![](https://github.com/charles4444/Mechanical-stress-prediction-using-convolutional-and-LSTM-layers/blob/main/Images/Solution%20CNN.png?raw=true)
+
 
 I specially want to thank Arnd Koeppe and Marion Mundt for assisting in the project and want to redirect interested readers to their research for further reading.
 
